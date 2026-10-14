@@ -1,0 +1,54 @@
+# Carpetas de compilación típicas de Qt Creator
+build/
+build-*/
+*-build-*/
+
+# qmake
+*.pro.user
+*.pro.user.*
+*.qmake.stash
+Makefile
+Makefile.*
+object_script.*.release
+object_script.*.debug
+.qmake.cache
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+*.cmake
+!CMakeLists.txt
+
+# Archivos generados por Qt (moc, uic, rcc)
+moc_*.cpp
+moc_*.h
+ui_*.h
+qrc_*.cpp
+*.moc
+
+# Carpetas de compilación de Visual Studio (si lo usas junto con Qt VS Tools)
+.vs/
+Debug/
+Release/
+x64/
+x86/
+*.user
+*.suo
+*.sdf
+*.VC.db
+
+# Archivos binarios y objetos
+*.exe
+*.obj
+*.o
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+
+# Archivos temporales
+*.tmp
+*.log
+*.autosave
